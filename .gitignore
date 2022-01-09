@@ -1,0 +1,19 @@
+# Ignore all dotfiles...
+.*
+# Except for
+!.github
+!.gitignore
+!.editorconfig
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+# testing
+/coverage
+# next.js
+/.next/
+/out/
+# production
+/build
+# misc
+npm-debug.log*
